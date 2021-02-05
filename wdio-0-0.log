@@ -1,0 +1,176 @@
+2021-02-05T09:28:44.695Z INFO @wdio/local-runner: Run worker command: run
+2021-02-05T09:28:47.367Z INFO webdriver: Initiate new session using the WebDriver protocol
+2021-02-05T09:28:47.380Z INFO webdriver: [POST] http://localhost:9515/session
+2021-02-05T09:28:47.381Z INFO webdriver: DATA {
+  capabilities: {
+    alwaysMatch: {
+      browserName: 'chrome',
+      'goog:chromeOptions': {},
+      acceptInsecureCerts: true
+    },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: {
+    browserName: 'chrome',
+    'goog:chromeOptions': {},
+    acceptInsecureCerts: true
+  }
+}
+2021-02-05T09:28:48.265Z INFO webdriver: COMMAND navigateTo("https://the-internet.herokuapp.com/login")
+2021-02-05T09:28:48.265Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/url
+2021-02-05T09:28:48.265Z INFO webdriver: DATA { url: 'https://the-internet.herokuapp.com/login' }
+2021-02-05T09:28:52.975Z INFO webdriver: COMMAND findElement("css selector", "#username")
+2021-02-05T09:28:52.975Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/element
+2021-02-05T09:28:52.975Z INFO webdriver: DATA { using: 'css selector', value: '#username' }
+2021-02-05T09:28:52.990Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '86123b89-f1df-48a3-9699-608d16587954'
+}
+2021-02-05T09:28:52.999Z INFO webdriver: COMMAND elementClear("86123b89-f1df-48a3-9699-608d16587954")
+2021-02-05T09:28:52.999Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/element/86123b89-f1df-48a3-9699-608d16587954/clear
+2021-02-05T09:28:53.043Z INFO webdriver: COMMAND elementSendKeys("86123b89-f1df-48a3-9699-608d16587954", "<Screenshot[base64]>")
+2021-02-05T09:28:53.043Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/element/86123b89-f1df-48a3-9699-608d16587954/value
+2021-02-05T09:28:53.043Z INFO webdriver: DATA { text: 'tomsmith' }
+2021-02-05T09:28:53.093Z INFO webdriver: COMMAND findElement("css selector", "#password")
+2021-02-05T09:28:53.094Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/element
+2021-02-05T09:28:53.094Z INFO webdriver: DATA { using: 'css selector', value: '#password' }
+2021-02-05T09:28:53.107Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'b4cd8641-d2bf-4e62-b0eb-200b569ca6c1'
+}
+2021-02-05T09:28:53.110Z INFO webdriver: COMMAND elementClear("b4cd8641-d2bf-4e62-b0eb-200b569ca6c1")
+2021-02-05T09:28:53.111Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/element/b4cd8641-d2bf-4e62-b0eb-200b569ca6c1/clear
+2021-02-05T09:28:53.143Z INFO webdriver: COMMAND elementSendKeys("b4cd8641-d2bf-4e62-b0eb-200b569ca6c1", "SuperSecretPassword!")
+2021-02-05T09:28:53.144Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/element/b4cd8641-d2bf-4e62-b0eb-200b569ca6c1/value
+2021-02-05T09:28:53.144Z INFO webdriver: DATA { text: 'SuperSecretPassword!' }
+2021-02-05T09:28:53.199Z INFO webdriver: COMMAND findElement("css selector", "button[type="submit"]")
+2021-02-05T09:28:53.199Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/element
+2021-02-05T09:28:53.199Z INFO webdriver: DATA { using: 'css selector', value: 'button[type="submit"]' }
+2021-02-05T09:28:53.210Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'cf6c1996-9ebb-45a9-9924-c003bc972216'
+}
+2021-02-05T09:28:53.214Z INFO webdriver: COMMAND elementClick("cf6c1996-9ebb-45a9-9924-c003bc972216")
+2021-02-05T09:28:53.214Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/element/cf6c1996-9ebb-45a9-9924-c003bc972216/click
+2021-02-05T09:28:53.888Z INFO webdriver: COMMAND navigateTo("https://the-internet.herokuapp.com/login")
+2021-02-05T09:28:53.888Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/url
+2021-02-05T09:28:53.888Z INFO webdriver: DATA { url: 'https://the-internet.herokuapp.com/login' }
+2021-02-05T09:28:54.187Z INFO webdriver: COMMAND findElement("css selector", "#username")
+2021-02-05T09:28:54.187Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/element
+2021-02-05T09:28:54.188Z INFO webdriver: DATA { using: 'css selector', value: '#username' }
+2021-02-05T09:28:54.198Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'f4f4a98e-dcc9-4851-b1fb-4d7c263ea4f4'
+}
+2021-02-05T09:28:54.203Z INFO webdriver: COMMAND elementClear("f4f4a98e-dcc9-4851-b1fb-4d7c263ea4f4")
+2021-02-05T09:28:54.204Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/element/f4f4a98e-dcc9-4851-b1fb-4d7c263ea4f4/clear
+2021-02-05T09:28:54.240Z INFO webdriver: COMMAND elementSendKeys("f4f4a98e-dcc9-4851-b1fb-4d7c263ea4f4", "foobar")
+2021-02-05T09:28:54.240Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/element/f4f4a98e-dcc9-4851-b1fb-4d7c263ea4f4/value
+2021-02-05T09:28:54.240Z INFO webdriver: DATA { text: 'foobar' }
+2021-02-05T09:28:54.286Z INFO webdriver: COMMAND findElement("css selector", "#password")
+2021-02-05T09:28:54.286Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/element
+2021-02-05T09:28:54.286Z INFO webdriver: DATA { using: 'css selector', value: '#password' }
+2021-02-05T09:28:54.295Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '3e105619-90be-4c41-a631-14fad5ca8443'
+}
+2021-02-05T09:28:54.299Z INFO webdriver: COMMAND elementClear("3e105619-90be-4c41-a631-14fad5ca8443")
+2021-02-05T09:28:54.299Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/element/3e105619-90be-4c41-a631-14fad5ca8443/clear
+2021-02-05T09:28:54.334Z INFO webdriver: COMMAND elementSendKeys("3e105619-90be-4c41-a631-14fad5ca8443", "barfoo")
+2021-02-05T09:28:54.334Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/element/3e105619-90be-4c41-a631-14fad5ca8443/value
+2021-02-05T09:28:54.334Z INFO webdriver: DATA { text: 'barfoo' }
+2021-02-05T09:28:54.378Z INFO webdriver: COMMAND findElement("css selector", "button[type="submit"]")
+2021-02-05T09:28:54.379Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/element
+2021-02-05T09:28:54.379Z INFO webdriver: DATA { using: 'css selector', value: 'button[type="submit"]' }
+2021-02-05T09:28:54.386Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '93c89bc3-4f9f-40e4-85dc-be4b7bbf82f6'
+}
+2021-02-05T09:28:54.393Z INFO webdriver: COMMAND elementClick("93c89bc3-4f9f-40e4-85dc-be4b7bbf82f6")
+2021-02-05T09:28:54.393Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/element/93c89bc3-4f9f-40e4-85dc-be4b7bbf82f6/click
+2021-02-05T09:28:55.008Z INFO webdriver: COMMAND getLogTypes()
+2021-02-05T09:28:55.009Z INFO webdriver: [GET] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/se/log/types
+2021-02-05T09:28:55.020Z INFO webdriver: RESULT [ 'browser', 'driver' ]
+2021-02-05T09:28:55.020Z INFO webdriver: COMMAND getLogs("driver")
+2021-02-05T09:28:55.020Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/se/log
+2021-02-05T09:28:55.020Z INFO webdriver: DATA { type: 'driver' }
+2021-02-05T09:28:55.021Z INFO webdriver: COMMAND getLogs("browser")
+2021-02-05T09:28:55.021Z INFO webdriver: [POST] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5/se/log
+2021-02-05T09:28:55.021Z INFO webdriver: DATA { type: 'browser' }
+2021-02-05T09:28:55.024Z INFO webdriver: RESULT []
+2021-02-05T09:28:55.026Z INFO webdriver: RESULT [
+  {
+    level: 'SEVERE',
+    message: "https://the-internet.herokuapp.com/login - Access to XMLHttpRequest at 'https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1612517331115r0.9254841674930274&wxhr=true&t=1612517331122&f=298349752,318188263' from origin 'https://the-internet.herokuapp.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    source: 'javascript',
+    timestamp: 1612517332071
+  },
+  {
+    level: 'SEVERE',
+    message: 'https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1612517331115r0.9254841674930274&wxhr=true&t=1612517331122&f=298349752,318188263 - Failed to load resource: net::ERR_FAILED',
+    source: 'network',
+    timestamp: 1612517332071
+  },
+  {
+    level: 'SEVERE',
+    message: 'https://the-internet.herokuapp.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)',
+    source: 'network',
+    timestamp: 1612517333200
+  },
+  {
+    level: 'SEVERE',
+    message: "https://the-internet.herokuapp.com/login - Access to XMLHttpRequest at 'https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1612517331115r0.9254841674930274&wxhr=true&t=1612517334149&f=298349752,318188263' from origin 'https://the-internet.herokuapp.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    source: 'javascript',
+    timestamp: 1612517334461
+  },
+  {
+    level: 'SEVERE',
+    message: 'https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1612517331115r0.9254841674930274&wxhr=true&t=1612517334149&f=298349752,318188263 - Failed to load resource: net::ERR_FAILED',
+    source: 'network',
+    timestamp: 1612517334462
+  },
+  {
+    level: 'SEVERE',
+    message: "https://the-internet.herokuapp.com/login - Access to XMLHttpRequest at 'https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Fsecure&u=oeu1612517331115r0.9254841674930274&wxhr=true&t=1612517333773&f=298349752,318188263' from origin 'https://the-internet.herokuapp.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    source: 'javascript',
+    timestamp: 1612517334475
+  },
+  {
+    level: 'SEVERE',
+    message: 'https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Fsecure&u=oeu1612517331115r0.9254841674930274&wxhr=true&t=1612517333773&f=298349752,318188263 - Failed to load resource: net::ERR_FAILED',
+    source: 'network',
+    timestamp: 1612517334476
+  },
+  {
+    level: 'SEVERE',
+    message: "https://the-internet.herokuapp.com/login - Access to XMLHttpRequest at 'https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1612517331115r0.9254841674930274&wxhr=true&t=1612517333245&f=298349752,318188263' from origin 'https://the-internet.herokuapp.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    source: 'javascript',
+    timestamp: 1612517334499
+  },
+  {
+    level: 'SEVERE',
+    message: 'https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1612517331115r0.9254841674930274&wxhr=true&t=1612517333245&f=298349752,318188263 - Failed to load resource: net::ERR_FAILED',
+    source: 'network',
+    timestamp: 1612517334499
+  },
+  {
+    level: 'SEVERE',
+    message: "https://the-internet.herokuapp.com/login - Access to XMLHttpRequest at 'https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1612517331115r0.9254841674930274&wxhr=true&t=1612517331122&f=298349752,318188263' from origin 'https://the-internet.herokuapp.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    source: 'javascript',
+    timestamp: 1612517334690
+  },
+  {
+    level: 'SEVERE',
+    message: 'https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1612517331115r0.9254841674930274&wxhr=true&t=1612517331122&f=298349752,318188263 - Failed to load resource: net::ERR_FAILED',
+    source: 'network',
+    timestamp: 1612517334690
+  },
+  {
+    level: 'SEVERE',
+    message: "https://the-internet.herokuapp.com/login - Access to XMLHttpRequest at 'https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1612517331115r0.9254841674930274&wxhr=true&t=1612517334424&f=298349752,318188263' from origin 'https://the-internet.herokuapp.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    source: 'javascript',
+    timestamp: 1612517334705
+  },
+  {
+    level: 'SEVERE',
+    message: 'https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1612517331115r0.9254841674930274&wxhr=true&t=1612517334424&f=298349752,318188263 - Failed to load resource: net::ERR_FAILED',
+    source: 'network',
+    timestamp: 1612517334705
+  }
+]
+2021-02-05T09:28:55.029Z INFO webdriver: COMMAND deleteSession()
+2021-02-05T09:28:55.029Z INFO webdriver: [DELETE] http://localhost:9515/session/d2c4deb8aab3b8e3920823add6cb17b5

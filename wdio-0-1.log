@@ -1,0 +1,6 @@
+2021-02-05T07:04:49.764Z INFO @wdio/local-runner: Run worker command: run
+2021-02-05T07:04:51.092Z ERROR @wdio/local-runner: Failed launching test session: Error: Parse error in 'features\step-definitions\steps.ts': (1:1): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'import { Given, When, Then } from 'cucumber';'
+    at D:\eclipseWS\TypeScriptProject\node_modules\cucumber\lib\cli\helpers.js:110:13
+    at Array.forEach (<anonymous>)
+    at getTestCases (D:\eclipseWS\TypeScriptProject\node_modules\cucumber\lib\cli\helpers.js:81:10)
+    at D:\eclipseWS\TypeScriptProject\node_modules\cucumber\lib\cli\helpers.js:58:35

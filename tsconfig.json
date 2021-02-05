@@ -1,0 +1,34 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "types": [
+      "node",
+      "webdriverio",
+      "@wdio/cucumber-framework"
+    ],
+    "typeRoots": [
+      "./src/**/*.ts"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ]
+  },
+  "include": [
+    "features/step-definitions/*.ts",
+    "./src/**/*.ts",
+    "./src/**/*.ts",
+    "**/*.js",
+    "**/*.json",
+    "node_modules/webdriverio",
+    "node_modules/@wdio/cucumber-framework"
+  ]
+  
+}
